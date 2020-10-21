@@ -5,16 +5,17 @@
 
 @font-face {
   font-family: 'nyt-cheltenham';
-  src: url('/assets/fonts/cheltenham-normal-400.woff2') format('woff2'),
+  src: url('/assets/fonts/cheltenham-normal-400.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'nyt-fraklin';
-  src: url('/assets/fonts/franklin-normal-500.woff2') format('woff2'),
+  src: url('/assets/fonts/franklin-normal-500.woff2') format('woff2');
 }
+
 @font-face {
   font-family: 'nyt-cheltenham';
-  src: url('/assets/fonts/imperial-normal-400.woff2') format('woff2'),
+  src: url('/assets/fonts/imperial-normal-400.woff2') format('woff2');
 }
 
 title {
@@ -38,7 +39,8 @@ a {
   color: #333;
 }
 
-article p, h3{
+article p,
+h3 {
   margin-bottom: 1rem;
 }
 
