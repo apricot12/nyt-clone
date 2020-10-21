@@ -1,14 +1,15 @@
 body {
   display: block;
-  max-width: 100%;
-}
-
-main {
-  max-width: 90%;
 }
 
 .svg {
-  height: 20px;
+  height: 15px;
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.nyt {
+  height: 30px;
   margin: 5px;
 }
 
@@ -17,24 +18,36 @@ main {
   position: fixed;
   width: 100%;
   background-color: white;
-  opacity: 90%;
+  top: 0;
 }
 
 .top-nav {
   display: flex;
   flex-direction: row;
-  /* margin: auto; */
-  justify-content: space-between;
   margin-left: 5px;
   margin-right: 5px;
   align-items: center;
-  position: relative;
+  align-self: center;
+  justify-content: space-between;
 }
 
 .menu-items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-self: center;
+}
+
+.space-cos {
+  align-self: center;
+}
+
+.nav-button {
+  background-color: #557b92;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
 }
 
 
