@@ -18,9 +18,9 @@
   src: url('/assets/fonts/imperial-normal-400.woff2') format('woff2');
 }
 
-title {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-  font-weight: 700;
+h1 {
+  font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -42,12 +42,17 @@ a {
 article p,
 h3 {
   margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #333;
 }
 
 .svg {
   height: 15px;
   margin: 5px;
   margin-right: 10px;
+  border: 1px #eee solid;
+  border-radius: 100%;
 }
 
 .nyt {
@@ -84,8 +89,27 @@ h3 {
   align-self: center;
 }
 
-.nav-button {
+button {
   background-color: #557b92;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #346e92
+} 
+
+
+.nav-button {
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.comment-button {
+  background-color: #557b92;
+  border: none;
   color: white;
   padding: 5px 15px;
   border-radius: 4px;
@@ -166,7 +190,6 @@ img {
 .final-foot li {
   margin-right: 30px;
 }
-
 
 /* Refrences styling guide */
 .referances {
