@@ -1,9 +1,13 @@
 body {
-  display:block;
+  display: block;
 }
 
-
 .svg {
+  height: 15px;
+  margin: 5px;
+}
+
+.nyt {
   height: 30px;
   margin: 5px;
 }
@@ -12,23 +16,33 @@ body {
   display: inline-block;
   position: fixed;
   width: 100%;
-  background-color:white;
-  opacity: 100%;
+  background-color: white;
+  top: 0;
 }
 
 .top-nav {
   display: flex;
   flex-direction: row;
-  /* margin: auto; */
-  justify-content: space-between;
-  top:0;
   margin-left: 5px;
   margin-right: 5px;
   align-items: center;
+  align-self: center;
+  justify-content: space-between;
 }
 
 .menu-items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-self: center;
+}
+
+.space-cos {
+  align-self: center;
+}
+
+.nav-button {
+  background-color: #557b92;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
 }
