@@ -112,6 +112,49 @@ img {
   max-width: 100%;
 }
 
+.footer-hr {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-top: 10px;
+  border-top: 5.5px double #d9d9d9;
+}
+
+.footer-hr a {
+  padding-right: 100px;
+  font-size: 0.7em;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9;
+  margin-top: 25px;
+}
+
+.footer-lists ul {
+  list-style: none;
+  padding-bottom: 50px;
+  font-size: 0.8em;
+}
+
+.footer-lists li:hover {
+  text-decoration: underline;
+}
+
+.last-ul {
+  display: inline-flex;
+  flex-direction: column;
+  border-left: 1px solid  #d9d9d9;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.footermenu-heading {
+  font-size: 1.5em;
+  text-weight: bold;
+}
+
 .bottom-bar {
   display: inline-block;
   position: fixed;
@@ -166,7 +209,6 @@ img {
 .final-foot li {
   margin-right: 30px;
 }
-
 
 /* Refrences styling guide */
 .referances {
