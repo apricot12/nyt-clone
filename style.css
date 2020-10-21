@@ -13,7 +13,7 @@ body {
   position: fixed;
   width: 100%;
   background-color:white;
-  opacity: 90%;
+  opacity: 100%;
 }
 
 .top-nav {
@@ -21,7 +21,7 @@ body {
   flex-direction: row;
   /* margin: auto; */
   justify-content: space-between;
-  margin-top: 0%;
+  top:0;
   margin-left: 5px;
   margin-right: 5px;
   align-items: center;
