@@ -80,12 +80,9 @@ h3 {
   flex-direction: row;
   align-self: center;
   justify-content: space-between;
-  flex-direction: row;
   margin-left: 5px;
   margin-right: 5px;
   align-items: center;
-  align-self: center;
-  justify-content: space-between;
 }
 
 .menu-items {
