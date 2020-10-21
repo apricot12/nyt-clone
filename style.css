@@ -1,6 +1,34 @@
-.header {
-  display: block;
+body {
+  display:block;
+}
+
+
+.svg {
+  height: 30px;
+  margin: 5px;
+}
+
+.header_main {
+  display: inline-block;
   position: fixed;
   width: 100%;
-  height: 60px;
+  background-color:white;
+  opacity: 90%;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+  justify-content: space-between;
+  margin-top: 0%;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
