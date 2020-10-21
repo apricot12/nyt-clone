@@ -18,7 +18,7 @@
 }
 
 title {
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -34,8 +34,8 @@ main {
 }
 
 a {
-    text-decoration: none;
-    color: #333333;
+  text-decoration: none;
+  color: #333;
 }
 
 article p, h3{
@@ -56,7 +56,7 @@ article p, h3{
 .header_main {
   display: inline-block;
   position: fixed;
-  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;  
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
   width: 100%;
   background-color: white;
   top: 0;
@@ -91,20 +91,21 @@ article p, h3{
   margin-right: 8px;
 }
 
-
 figure {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    /* margin-left: 40px;
-    margin-right: 40px; */
-    max-width: 1000px;
-  }
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
 
-  figcaption {
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    color: #666666;
-  }
+  /* margin-left: 40px;
+    margin-right: 40px; */
+  max-width: 1000px;
+}
+
+figcaption {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  color: #666;
+}
+
 img {
   max-width: 100%;
 }
@@ -113,10 +114,10 @@ img {
   display: inline-block;
   position: fixed;
   background-color: white;
-  width:100%;
+  width: 100%;
   height: 50px;
-  bottom:0;
-  border-top:1px solid black;
+  bottom: 0;
+  border-top: 1px solid black;
 }
 
 .bot-bar {
@@ -128,7 +129,7 @@ img {
 }
 
 .bot-1 {
-  padding-left: 38%;
+  padding-left: 37%;
   font-size: 0.9rem;
   align-self: center;
   margin-top: 12px;
@@ -149,6 +150,20 @@ img {
   margin-top: 12px;
 }
 
+.final-foot {
+  display: inline-flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 0.7em;
+  margin-bottom: 55px;
+  padding: 10px 70px;
+  border-top: 1px solid #d9d9d9;
+  margin-left: 9.5%;
+}
+
+.final-foot li {
+  margin-right: 30px;
+}
 
 
 /* Refrences styling guide */
@@ -156,8 +171,7 @@ img {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
   margin: auto;
-  color: #666666;
-
+  color: #666;
 }
 
 #social-links {
