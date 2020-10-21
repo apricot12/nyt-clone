@@ -1,10 +1,14 @@
 body {
-  display:block;
+  display: block;
+  max-width: 100%;
 }
 
+main {
+  max-width: 90%;
+}
 
 .svg {
-  height: 30px;
+  height: 20px;
   margin: 5px;
 }
 
@@ -12,7 +16,7 @@ body {
   display: inline-block;
   position: fixed;
   width: 100%;
-  background-color:white;
+  background-color: white;
   opacity: 90%;
 }
 
@@ -21,14 +25,32 @@ body {
   flex-direction: row;
   /* margin: auto; */
   justify-content: space-between;
-  margin-top: 0%;
   margin-left: 5px;
   margin-right: 5px;
   align-items: center;
+  position: relative;
 }
 
 .menu-items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 1000px;
+  }
+
+  figcaption {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #666666;
+  }
+img {
+  max-width: 100%;
 }
