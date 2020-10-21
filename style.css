@@ -3,8 +3,25 @@
   padding: 0;
 }
 
+title {
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 body {
   display: block;
+}
+
+main {
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
 }
 
 .svg {
@@ -21,6 +38,7 @@ body {
 .header_main {
   display: inline-block;
   position: fixed;
+  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;  
   width: 100%;
   background-color: white;
   top: 0;
@@ -60,8 +78,8 @@ figure {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
     max-width: 1000px;
   }
 
@@ -115,3 +133,19 @@ img {
 
 
 
+/* Refrences styling guide */
+.referances {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  margin: auto;
+  color: #666666;
+
+}
+
+#social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
