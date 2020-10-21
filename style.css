@@ -52,7 +52,13 @@ h3 {
   margin: 5px;
   margin-right: 10px;
   border: 1px #eee solid;
+  padding: 3px;
+  background-color: #eee;
   border-radius: 100%;
+}
+
+.svg:hover {
+  background-color: white;
 }
 
 .nyt {
@@ -96,9 +102,8 @@ button {
 }
 
 button:hover {
-  background-color: #346e92
-} 
-
+  background-color: #346e92;
+}
 
 .nav-button {
   padding: 5px 15px;
