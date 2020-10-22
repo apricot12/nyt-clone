@@ -14,8 +14,8 @@
 }
 
 @font-face {
-  font-family: 'nyt-cheltenham';
-  src: url('/assets/fonts/imperial-normal-400.woff2') format('woff2');
+  font-family: 'imperial-normal';
+  src: url('/assets/fonts/imperial-normal-700.woff2') format('woff2');
 }
 
 h1 {
@@ -50,6 +50,7 @@ a {
 article {
   margin-left: 20%;
   margin-right: 20%;
+  font-family: 'nyt-cheltenham'
 }
 
 article p,
@@ -59,6 +60,7 @@ h3 {
   line-height: 1.875rem;
   color: #333;
 }
+
 
 .svg {
   height: 15px;
@@ -333,6 +335,7 @@ img {
   padding: 5px;
   font-size: small;
   width: 70%;
+  font-family: 'nyt-cheltenham';
 }
 
 .p2-grid {
