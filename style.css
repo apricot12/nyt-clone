@@ -1,11 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('/assets/fonts/cheltenham-normal-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'nyt-fraklin';
+  src: url('/assets/fonts/franklin-normal-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'nyt-imperial';
+  src: url('/assets/fonts/imperial-normal-400.woff2') format('woff2');
+}
+
+h1 {
+  font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
 body {
   display: block;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.headings {
+  display: block;
+  align-items: center;
+}
+
+article {
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'nyt-cheltenham', sans-serif;
+}
+
+#credit {
+  margin-bottom: 20px;
+}
+
+article p,
+h3 {
+  margin-bottom: 1em;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #333;
+}
+
+article h3 {
+  font-weight: bold;
+}
+
 .svg {
   height: 15px;
-  margin: 5px;
+  margin: 10px;
   margin-right: 10px;
+  border: 1px #eee solid;
+  padding: 8px;
+  background-color: #eee;
+  border-radius: 100%;
+}
+
+.svg:hover {
+  background-color: white;
 }
 
 .nyt {
@@ -16,19 +92,21 @@ body {
 .header_main {
   display: inline-block;
   position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
   width: 100%;
   background-color: white;
   top: 0;
+  z-index: 2;
 }
 
 .top-nav {
   display: flex;
   flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
   margin-left: 5px;
   margin-right: 5px;
   align-items: center;
-  align-self: center;
-  justify-content: space-between;
 }
 
 .menu-items {
@@ -41,29 +119,272 @@ body {
   align-self: center;
 }
 
-.nav-button {
+button {
   background-color: #557b92;
+  border: none;
   color: white;
+}
+
+button:hover {
+  background-color: #346e92;
+}
+
+.nav-button {
   padding: 5px 15px;
   border-radius: 4px;
   cursor: pointer;
   margin-right: 8px;
 }
 
+.video-container {
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.comment-button {
+  background-color: #557b92;
+  border: none;
+  color: white;
+  padding: 0 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
 
 figure {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    max-width: 1000px;
-  }
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 1100px;
+}
 
-  figcaption {
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    color: #666666;
-  }
+figcaption {
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
+  color: #666;
+  font-size: small;
+}
+
 img {
   max-width: 100%;
+}
+
+.footer-hr {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-top: 10px;
+  border-top: 5.5px double #d9d9d9;
+}
+
+.footer-hr a {
+  padding-right: 100px;
+  font-size: 0.7em;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9em;
+  margin-top: 25px;
+}
+
+.footer-lists ul {
+  list-style: none;
+  padding-bottom: 50px;
+  font-size: 0.8em;
+}
+
+.final-foot li {
+  margin-right: 30px;
+}
+
+.footer-lists li:hover {
+  text-decoration: underline;
+}
+
+.last-ul {
+  display: inline-flex;
+  flex-direction: column;
+  border-left: 1px solid  #d9d9d9;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.footermenu-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.bottom-bar {
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+
+.bot-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bot-1 {
+  padding-left: 37%;
+  font-size: 0.9rem;
+  align-self: center;
+  margin-top: 12px;
+}
+
+.bot-2 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-left: 18%;
+  align-self: center;
+  margin-top: 12px;
+}
+
+.bot-3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-left: 5%;
+  margin-top: 12px;
+}
+
+.final-foot {
+  display: inline-flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 0.7em;
+  margin-bottom: 55px;
+  padding: 10px 70px;
+  border-top: 1px solid #d9d9d9;
+  margin-left: 9.5%;
+}
+
+.referances {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  margin: auto;
+  color: #666;
+}
+
+#social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.comments-section {
+  display: inline-flex;
+  justify-content: space-between;
+  min-width: 100%;
+  margin-top: 20px;
+}
+
+.inflation-theory {
+  display: block;
+  max-width: 1100px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  font-family: 'nyt-cheltenham', sans-serif;
+}
+
+.inflation-grid figure {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.inflation-grid div {
+  position: relative;
+  width: inherit;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-shrink: 0;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.inflation-grid div p {
+  margin-top: 180px;
+  padding: 5px;
+  font-size: small;
+  width: 70%;
+}
+
+.p2-grid {
+  margin-top: 50px;
+}
+
+/* Blog Section Styling */
+.blog {
+  margin-top: 80px;
+  padding-top: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blog-posts {
+  min-width: 100px;
+  width: 250px;
+  margin: 10px;
+}
+
+.space_and_astrobnomy {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 3;
+  flex-shrink: 0;
+  margin-right: 7%;
+}
+
+.editors_pick {
+  margin-top: 10px;
+  margin-right: 7%;
+  display: flex;
+}
+
+.most_popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 300px;
+}
+
+.most-pop-titles {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid grey;
+  color: grey;
+  font-weight: lighter;
+  max-width: 300px;
+  font-family: 'nyt-cheltenham', sans-serif;
+}
+
+.most-pop-titles:hover {
+  text-decoration: underline;
 }

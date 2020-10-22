@@ -2,58 +2,34 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> This is a clone of the NYT [article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html) made using HTML and CSS. We've used flexbox, grid and float to position all the different elements.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/screenshots/Site-ss1.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS3
+- Git & GitHub
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://apricot12.github.io/nyt-clone/)
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@apricot12](https://github.com/apricot12)
+- Twitter: [@apricotfoxtrot](https://twitter.com/apricotfoxtrot)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+-- GitHub: [@githubhandle](https://github.com/bashforger)
+- Twitter: [@twitterhandle](https://twitter.com/bashforge)
+- LinkedIn: [LinkedIn](https://linkedin.com/muhammad-adeel-danish/) 
 
 ## 🤝 Contributing
 
@@ -67,9 +43,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- New York Times
+- Google Fonts
 
 ## 📝 License
 
