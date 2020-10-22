@@ -60,7 +60,7 @@ article {
 
 article p,
 h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #333;
@@ -341,7 +341,7 @@ img {
 
 /* Blog Section Styling */
 .blog {
-  margin-top: 400px;
+  margin-top: 80px;
   padding-top: 10px;
   display: inline-flex;
   flex-direction: row;
