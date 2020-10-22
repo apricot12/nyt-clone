@@ -190,10 +190,12 @@ img {
   margin-top: 25px;
 }
 
+
 .footer-lists ul {
   list-style: none;
   padding-bottom: 50px;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-family: 'nyt-imperial', sans-serif;
 }
 
 .final-foot li {
@@ -359,7 +361,7 @@ img {
 
 /* Blog Section Styling */
 .blog {
-  margin-top: 10px;
+  margin-top: 400px;
   padding-top: 10px;
   display: inline-flex;
   flex-direction: row;
