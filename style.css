@@ -129,16 +129,27 @@ button:hover {
   background-color: #346e92;
 }
 
-iframe {
-  width: 100%;
-  height: 12%;
-}
-
 .nav-button {
   padding: 5px 15px;
   border-radius: 4px;
   cursor: pointer;
   margin-right: 8px;
+}
+
+.video-container {
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .comment-button {
@@ -155,9 +166,6 @@ figure {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
-
-  /* margin-left: 40px;
-    margin-right: 40px; */
   max-width: 1100px;
 }
 
@@ -269,7 +277,6 @@ img {
   margin-left: 9.5%;
 }
 
-/* Refrences styling guide */
 .referances {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
@@ -310,20 +317,7 @@ img {
 }
 
 .inflation-grid div {
-  /* display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 20px;
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
   position: relative;
-  top: 25%;
-  z-index: 2; */
-
-  /* background-image: url(assets/images/inflation.png); */
-  position: relative;
-
-  /* margin: 1rem;
-  padding: 1rem; */
   width: inherit;
   display: flex;
   flex: auto;
@@ -332,21 +326,6 @@ img {
   flex-shrink: 0;
   justify-content: space-evenly;
   z-index: 1;
-
-  /*
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 2rem;
-  grid-row-gap: 100px;
-  font-size: small; */
-
-  /* margin-top: -26rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  grid-column-gap: 2rem;
-  grid-row-gap: 9rem;
-  font-size: .8rem; */
 }
 
 .inflation-grid div p {
@@ -367,16 +346,7 @@ img {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-around;
-
-  /* max-width: 100%; */
-
-  /* width: min-content; */
 }
-
-/* .posts{
-  display: block;
-  max-width: 800px;
-} */
 
 .blog-posts {
   min-width: 100px;
@@ -399,12 +369,9 @@ img {
 }
 
 .most_popular {
-  /* margin-top: -900px; */
   display: flex;
   flex-direction: column;
   justify-content: start;
-
-  /* align-items: left; */
   min-width: 300px;
 }
 
