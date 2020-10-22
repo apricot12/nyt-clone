@@ -96,6 +96,7 @@ article h3 {
   width: 100%;
   background-color: white;
   top: 0;
+  z-index: 2;
 }
 
 .top-nav {
@@ -305,6 +306,7 @@ img {
   align-self: center;
   align-content: center;
   position: absolute;
+  z-index: -1;
 }
 
 .inflation-grid div {
@@ -325,7 +327,7 @@ img {
   width: inherit;
   display: flex;
   flex: auto;
-  flex-direction: row !important;
+  flex-direction: row;
   flex-basis: auto;
   flex-shrink: 0;
   justify-content: space-evenly;
