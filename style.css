@@ -35,7 +35,6 @@ main {
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
-
 }
 
 a {
@@ -45,7 +44,7 @@ a {
 
 .headings {
   display: block;
-  align-items: center ;
+  align-items: center;
 }
 
 article {
@@ -171,7 +170,7 @@ img {
 .footer-lists {
   display: flex;
   justify-content: space-around;
-  font-size: 0.9;
+  font-size: 0.9em;
   margin-top: 25px;
 }
 
@@ -179,6 +178,10 @@ img {
   list-style: none;
   padding-bottom: 50px;
   font-size: 0.8em;
+}
+
+.final-foot li {
+  margin-right: 30px;
 }
 
 .footer-lists li:hover {
@@ -195,7 +198,7 @@ img {
 
 .footermenu-heading {
   font-size: 1.5em;
-  text-weight: bold;
+  font-weight: bold;
 }
 
 .bottom-bar {
@@ -249,10 +252,6 @@ img {
   margin-left: 9.5%;
 }
 
-.final-foot li {
-  margin-right: 30px;
-}
-
 /* Refrences styling guide */
 .referances {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -275,7 +274,7 @@ img {
   justify-content: space-between;
 }
 
-.inflation-theory { 
+.inflation-theory {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -283,9 +282,9 @@ img {
   align-items: center;
 }
 
-.inflation-theory img{
+.inflation-theory img {
   position: relative;
-  width:100%;
+  width: 100%;
   z-index: -1;
 }
 
@@ -303,13 +302,14 @@ img {
   position: relative;
   margin-top: 3rem;
   width:100%;
-  display: flex;   
+  display: flex;
   flex: auto;
   flex-basis: auto;
   flex-shrink: 0;
   margin-top: 15%;
   justify-content: space-evenly; */
-/* 
+
+  /*
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2rem;
@@ -321,9 +321,40 @@ img {
   width: 100%;
   grid-column-gap: 2rem;
   grid-row-gap: 9rem;
-  font-size: .8rem;
-} 
+  font-size: 0.8rem;
+}
 
-.inflation-grid p{
+.inflation-grid p {
   flex: auto;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+}
+
+.blog-title {
+  font-weight: bold;
+}
+
+.space_and_astrobnomy {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 250px 250px 250px;
+  grid-gap: 15px;
+  margin-top: 50px;
+}
+
+.editors_pick {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 250px 250px 250px;
+  grid-gap: 15px;
+  margin-top: 100px;
+}
+
+.mpop-container {
+  display: flex;
+  flex-direction: column;
 }
