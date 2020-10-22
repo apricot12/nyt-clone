@@ -285,10 +285,11 @@ img {
 
 .inflation-theory img{
   position: relative;
+  width:100%;
   z-index: -1;
 }
 
-.inflation-grid div{
+.inflation-grid {
   /* display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 20px;
@@ -297,18 +298,31 @@ img {
   position: relative;
   top: 25%;
   z-index: 2; */
-  background-image: url();
+
+  /* background-image: url(assets/images/inflation.png);
   position: relative;
   margin-top: 3rem;
   width:100%;
-  /* height: inherit; */
   display: flex;   
   flex: auto;
   flex-basis: auto;
   flex-shrink: 0;
   margin-top: 15%;
-  justify-content: space-evenly;
-}
+  justify-content: space-evenly; */
+/* 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 100px;
+  font-size: small; */
+  margin-top: -26rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  grid-column-gap: 2rem;
+  grid-row-gap: 9rem;
+  font-size: .8rem;
+} 
 
 .inflation-grid p{
   flex: auto;
