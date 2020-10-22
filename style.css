@@ -142,7 +142,7 @@ figure {
 
   /* margin-left: 40px;
     margin-right: 40px; */
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 figcaption {
@@ -274,21 +274,38 @@ img {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .inflation-theory {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 70%;
+=======
+.inflation-theory{ 
+  max-width: 1100px;
+>>>>>>> d1c123c6e64004d404757c135bbc6c2384862552
   align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
+<<<<<<< HEAD
 .inflation-theory img {
   position: relative;
   width: 100%;
   z-index: -1;
+=======
+
+.inflation-grid figure{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: absolute;
+>>>>>>> d1c123c6e64004d404757c135bbc6c2384862552
 }
 
-.inflation-grid {
+
+.inflation-grid div{
   /* display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 20px;
@@ -298,29 +315,45 @@ img {
   top: 25%;
   z-index: 2; */
 
-  /* background-image: url(assets/images/inflation.png);
+  /* background-image: url(assets/images/inflation.png); */
   position: relative;
+<<<<<<< HEAD
   margin-top: 3rem;
   width:100%;
   display: flex;
+=======
+  /* margin: 1rem;
+  padding: 1rem; */
+  width: inherit;
+  display: flex;   
+>>>>>>> d1c123c6e64004d404757c135bbc6c2384862552
   flex: auto;
+  flex-direction: row !important;
   flex-basis: auto;
   flex-shrink: 0;
+<<<<<<< HEAD
   margin-top: 15%;
   justify-content: space-evenly; */
 
   /*
+=======
+  justify-content: space-evenly;
+  z-index: 1  ;
+/* 
+>>>>>>> d1c123c6e64004d404757c135bbc6c2384862552
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 100px;
   font-size: small; */
-  margin-top: -26rem;
+
+  /* margin-top: -26rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
   grid-column-gap: 2rem;
   grid-row-gap: 9rem;
+<<<<<<< HEAD
   font-size: 0.8rem;
 }
 
@@ -358,3 +391,18 @@ img {
   display: flex;
   flex-direction: column;
 }
+=======
+  font-size: .8rem; */
+} 
+
+.inflation-grid div p{
+  margin-top: 180px;
+  padding: 5px;
+  font-size: small;
+  width: 70%;
+}
+
+.p2-grid {
+  margin-top: 50px;
+}
+>>>>>>> d1c123c6e64004d404757c135bbc6c2384862552
