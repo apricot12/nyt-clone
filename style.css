@@ -143,7 +143,7 @@ figure {
 
   /* margin-left: 40px;
     margin-right: 40px; */
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 figcaption {
@@ -275,21 +275,23 @@ img {
   justify-content: space-between;
 }
 
-.inflation-theory { 
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 70%;
+.inflation-theory{ 
+  max-width: 1100px;
   align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
-.inflation-theory img{
-  position: relative;
-  width:100%;
-  z-index: -1;
+
+.inflation-grid figure{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  position: absolute;
 }
 
-.inflation-grid {
+
+.inflation-grid div{
   /* display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 20px;
@@ -299,31 +301,41 @@ img {
   top: 25%;
   z-index: 2; */
 
-  /* background-image: url(assets/images/inflation.png);
+  /* background-image: url(assets/images/inflation.png); */
   position: relative;
-  margin-top: 3rem;
-  width:100%;
+  /* margin: 1rem;
+  padding: 1rem; */
+  width: inherit;
   display: flex;   
   flex: auto;
+  flex-direction: row !important;
   flex-basis: auto;
   flex-shrink: 0;
-  margin-top: 15%;
-  justify-content: space-evenly; */
+  justify-content: space-evenly;
+  z-index: 1  ;
 /* 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 100px;
   font-size: small; */
-  margin-top: -26rem;
+
+  /* margin-top: -26rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
   grid-column-gap: 2rem;
   grid-row-gap: 9rem;
-  font-size: .8rem;
+  font-size: .8rem; */
 } 
 
-.inflation-grid p{
-  flex: auto;
+.inflation-grid div p{
+  margin-top: 180px;
+  padding: 5px;
+  font-size: small;
+  width: 70%;
+}
+
+.p2-grid {
+  margin-top: 50px;
 }
