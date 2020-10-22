@@ -144,7 +144,7 @@ iframe {
   background-color: #557b92;
   border: none;
   color: white;
-  padding: 0px 80px;
+  padding: 0 80px;
   border-radius: 4px;
   cursor: pointer;
   margin-right: 8px;
@@ -189,7 +189,6 @@ img {
   font-size: 0.9em;
   margin-top: 25px;
 }
-
 
 .footer-lists ul {
   list-style: none;
