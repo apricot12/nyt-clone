@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# NYT Clone
 
 > This is a clone of the NYT [article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html) made using HTML and CSS. We've used flexbox, grid and float to position all the different elements.
 
