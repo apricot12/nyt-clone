@@ -331,7 +331,7 @@
                     <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a></span>
             </div>
             <div class="comments-section">
-                <button class="comment-button" type="button">Comments</button>
+                <button class="comment-button" type="button">Read Comments</button>
                 <div>
                     <a href="#"><svg class="svg" viewBox="0 0 7 15" width="7" height="15">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -356,40 +356,6 @@
                                 fill="#000"></path>
                         </svg></a>
                 </div>
-            </div>
-            <div class="comment-box">
-                <form action="/comments" method="post" class="form-container">
-                    <ul>
-                        <li>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name" maxlength="20" placeholder="Name" required>
-                        </li>
-                        <li>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_email" placeholder="Email" required>
-                        </li>
-                        <li>
-                            <label for="cmt">Comment:</label>
-                            <textarea id="cmt" name="user_cmt" placeholder="Type your comments here" maxlength="250" required></textarea>
-                        </li>
-                        <li class="radio-li">
-                            <h4>What is your overall opinion about this article?</h4>
-                            <input type="radio" id="positive" name="opinion" value="positive">
-                            <label for="positive">Positive</label><br>
-                            <input type="radio" id="negative" name="opinion" value="negative">
-                            <label for="negative">Negative</label><br>
-                            <input type="radio" id="neutral" name="opinion" value="neutral">
-                            <label for="neutral">Neutral</label>
-                        </li>
-                        <li class="checkbox-li">
-                            <input type="checkbox" id="newsletter" name="newsletter" value="check">
-                            <label for="newsletter"> I want to subscribe to the newsletter </label>
-                        </li>
-                        <li>
-                            <button class="nav-button" type="submit">Submit</button>
-                        </li>
-                    </ul>
-                </form>
             </div>
         </article>
 
