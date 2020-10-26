@@ -209,6 +209,10 @@ img {
   margin-right: 30px;
 }
 
+.form-container li {
+  margin-top: 1.3em;
+}
+
 .footer-lists li:hover {
   text-decoration: underline;
 }
@@ -297,6 +301,47 @@ img {
   justify-content: space-between;
   min-width: 100%;
   margin-top: 20px;
+}
+
+.comment-box {
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'nyt-cheltenham', sans-serif;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+  width: 70%;
+}
+
+.radio-li p {
+  font-family: 'nyt-cheltenham', sans-serif;
+  font-size: 1.2em;
+}
+
+.checkbox-li {
+  display: inline-block;
+  width: 100%;
+}
+
+.sub-button {
+  border-radius: 1em;
 }
 
 .inflation-theory {
