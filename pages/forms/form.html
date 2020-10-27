@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <title>Feedback</title>
+</head>
+
+<body>
+    <form>
+        <h1>Feedback</h1>
+        <div class="fields">
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username" placeholder="username" maxlength="20" required>
+        </div>
+        <div class="fields">
+            <label for="email">e-mail</label>
+            <input type="email" id="email" name="email" placeholder="email" maxlength="20" required>
+        </div>
+        <div class="fields">
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="comments" maxlength="500" required>
+            </textarea>
+        </div>
+        <div>
+            <span>What is your overall opinion about this article?</span>
+            <ul>
+                <li>
+                    <input type="radio" id="positive" name="feedback">
+                    <label for="positive">Positive</label>
+                </li>
+                <li>
+                    <input type="radio" id="negative" name="feedback">
+                    <label for="negative">Negatiive</label>
+                </li>
+                <li>
+                    <input type="radio" id="neutral" name="feedback">
+                    <label for="neutral">Neutral</label>
+                </li>
+            </ul>
+        </div>
+        <div class="fields">
+            <div>
+                <label for="subscribe">I want to subscribe to the newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+        </div>
+        <div class="fields">
+            <button type="submit">send</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+body {
+  background-color: #5e01c5;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Avro', Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  background-color: lightgray;
+  padding: 11%;
+
+  /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+  box-shadow: 0 0 20px 0 #333, 0 5px 5px 0 #333;
+}
+
+.fields {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fields input,
+textarea {
+  background: #eee;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.fields #comments {
+  height: 150px;
+}
+
+button {
+  background-color: #5e01c5;
+  color: #eee;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+li {
+  max-width: 100%;
+  list-style: none;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+li label {
+  padding-left: 25px;
+}
